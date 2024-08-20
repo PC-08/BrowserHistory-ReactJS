@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nav {
+  background-color: #3367d6;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'roboto';
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-img {
+  background-color: #2850a7;
+  padding: 10px;
+  border: 1px solid #64748b;
+  margin: 5px;
+}
+
+.input {
+  background-color: #2850a7;
+  padding: 14px;
+  border: 1px solid #64748b;
+  margin: 5px;
+  color: white;
+  font-weight: 700;
+  width: 300px;
+}
+
+.list-container {
+  list-style-type: none;
+  padding: 20px;
+  margin: 0;
+  box-shadow: 0px 4px 16px 0px;
+  border-radius: 6px;
+}
+
+.box-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-item {
+  font-family: 'roboto';
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.list-item-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box2 {
+  padding: 40px;
+}
+
+.time {
+  color: #64748b;
+  font-weight: bold;
+  padding-right: 50px;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.title {
+  color: #2850a7;
+  font-weight: 700;
+  padding-right: 20px;
+}
+
+.link {
+  color: #64748b;
+}
+
+.btn {
+  background-color: white;
+  outline: none;
+  border: 0;
+}
+
+.delete {
+  padding: 10px;
+}
+
+.nohistory {
+  text-align: center;
+  color: #475569;
+  font-size: 36px;
+}
+
+@media (max-width: 576px) {
+  .nav {
+    padding: 5px;
+    justify-content: space-between;
+    width: 100vw;
+  }
+  .nav-logo {
+    width: 60px;
+    margin-right: 10px;
+
+    padding: 3px;
+  }
+
+  .search-img {
+    padding: 3px;
+  }
+
+  .input {
+    padding: 5px;
+    width: 100px;
+  }
+
+  .list-item-container {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+
+  .list-container {
+    padding: 5px;
+  }
+
+  .box2 {
+    padding: 10px;
+  }
+
+  .title {
+    font-size: 14px;
+    padding-right: 5px;
+  }
+
+  .link {
+    font-size: 12px;
+  }
+
+  .nohistory {
+    font-size: 14px;
+  }
+}
